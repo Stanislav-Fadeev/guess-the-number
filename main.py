@@ -11,7 +11,6 @@ def next():
             break
 def game():
     num = randint(1, 100)
-    print(num)
     c = 0
     while True:
         igrok = is_digit(input())
